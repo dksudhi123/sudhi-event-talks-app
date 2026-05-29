@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Event Schedule</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Awesome Tech Conference</h1>
+            <p class="event-date">Date: May 29, 2026</p>
+        </header>
+
+        <main>
+            <div class="search-container">
+                <input type="text" id="category-search" placeholder="Search by category...">
+            </div>
+
+            <section id="schedule" class="schedule-grid">
+                <!-- Schedule items will be rendered here by JavaScript -->
+            </section>
+
+            <div id="no-talks-message" class="hidden">
+                <p>No talks found matching your criteria.</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Awesome Tech Conference. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
